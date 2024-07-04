@@ -126,7 +126,7 @@ for machine_id, data in machines.items():
                 'parameters': {}
             }
 
-        images_config[mode_id]['features'][mode_id] = {
+        images_config[mode_id]['features']['1'] = {
             'position': convert_position(image['merkmal_pos']),
             'value': '',
             'sypol': ''
