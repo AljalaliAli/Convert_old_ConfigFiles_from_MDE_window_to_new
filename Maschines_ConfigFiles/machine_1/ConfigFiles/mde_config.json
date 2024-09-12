@@ -1,0 +1,266 @@
+{
+    "images": {
+        "1": {
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "path": "mode_an.tiff",
+            "features": {
+                "1": {
+                    "position": {
+                        "x1": 4,
+                        "y1": 1,
+                        "x2": 573,
+                        "y2": 59
+                    },
+                    "value": "",
+                    "sypol": ""
+                }
+            },
+            "parameters": {
+                "stern": {
+                    "name": "stern",
+                    "position": {
+                        "x1": 70,
+                        "y1": 660,
+                        "x2": 97,
+                        "y2": 676
+                    }
+                },
+                "pgm": {
+                    "name": "pgm",
+                    "position": {
+                        "x1": 549,
+                        "y1": 83,
+                        "x2": 867,
+                        "y2": 110
+                    }
+                },
+                "tool": {
+                    "name": "tool",
+                    "position": {
+                        "x1": 292,
+                        "y1": 655,
+                        "x2": 406,
+                        "y2": 679
+                    }
+                },
+                "F": {
+                    "name": "F",
+                    "position": {
+                        "x1": 610,
+                        "y1": 653,
+                        "x2": 728,
+                        "y2": 677
+                    }
+                },
+                "S": {
+                    "name": "S",
+                    "position": {
+                        "x1": 475,
+                        "y1": 655,
+                        "x2": 586,
+                        "y2": 678
+                    }
+                }
+            }
+        },
+        "3": {
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "path": "MODE_STROM_UNTERBRECHUNG.tiff",
+            "features": {
+                "1": {
+                    "position": {
+                        "x1": 6,
+                        "y1": 2,
+                        "x2": 539,
+                        "y2": 64
+                    },
+                    "value": "",
+                    "sypol": ""
+                }
+            },
+            "parameters": {}
+        },
+        "4": {
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "path": "Arbeitsraum offen.tiff",
+            "features": {
+                "1": {
+                    "position": {
+                        "x1": 4,
+                        "y1": 3,
+                        "x2": 468,
+                        "y2": 59
+                    },
+                    "value": "",
+                    "sypol": ""
+                }
+            },
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "position": {
+                        "x1": 88,
+                        "y1": 513,
+                        "x2": 294,
+                        "y2": 544
+                    }
+                },
+                "y": {
+                    "name": "y",
+                    "position": {
+                        "x1": 395,
+                        "y1": 512,
+                        "x2": 582,
+                        "y2": 545
+                    }
+                }
+            }
+        },
+        "5": {
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "path": "mb_2.tiff",
+            "features": {
+                "1": {
+                    "position": {
+                        "x1": 5,
+                        "y1": 9,
+                        "x2": 157,
+                        "y2": 192
+                    },
+                    "value": "",
+                    "sypol": ""
+                }
+            },
+            "parameters": {
+                "stern": {
+                    "name": "stern",
+                    "position": {
+                        "x1": 11,
+                        "y1": 194,
+                        "x2": 46,
+                        "y2": 227
+                    }
+                },
+                "tool": {
+                    "name": "tool",
+                    "position": {
+                        "x1": 10,
+                        "y1": 579,
+                        "x2": 106,
+                        "y2": 596
+                    }
+                }
+            }
+        },
+        "6": {
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "path": "mb_1.tiff",
+            "features": {
+                "1": {
+                    "position": {
+                        "x1": 4,
+                        "y1": 6,
+                        "x2": 208,
+                        "y2": 218
+                    },
+                    "value": "",
+                    "sypol": ""
+                }
+            },
+            "parameters": {
+                "tool": {
+                    "name": "tool",
+                    "position": {
+                        "x1": 7,
+                        "y1": 572,
+                        "x2": 85,
+                        "y2": 597
+                    }
+                },
+                "stern": {
+                    "name": "stern",
+                    "position": {
+                        "x1": 68,
+                        "y1": 218,
+                        "x2": 128,
+                        "y2": 267
+                    }
+                }
+            }
+        },
+        "7": {
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "path": "Aus.tiff",
+            "features": {
+                "1": {
+                    "position": {
+                        "x1": 98,
+                        "y1": 58,
+                        "x2": 708,
+                        "y2": 126
+                    },
+                    "value": "",
+                    "sypol": ""
+                }
+            },
+            "parameters": {}
+        },
+        "8": {
+            "size": {
+                "width": 1024,
+                "height": 768
+            },
+            "path": "mb3.tiff",
+            "features": {
+                "1": {
+                    "position": {
+                        "x1": 5,
+                        "y1": 3,
+                        "x2": 428,
+                        "y2": 59
+                    },
+                    "value": "",
+                    "sypol": ""
+                }
+            },
+            "parameters": {
+                "tool": {
+                    "name": "tool",
+                    "position": {
+                        "x1": 10,
+                        "y1": 579,
+                        "x2": 106,
+                        "y2": 596
+                    }
+                },
+                "stern": {
+                    "name": "stern",
+                    "position": {
+                        "x1": 11,
+                        "y1": 194,
+                        "x2": 46,
+                        "y2": 227
+                    }
+                }
+            }
+        }
+    }
+}

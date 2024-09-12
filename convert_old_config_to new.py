@@ -48,14 +48,25 @@ machines = {}
 
 # Process Modus data
 for modus in modus_data:
-    id, name, machine_id = modus
+    print('..............', modus)
+    try:
+        id, name, machine_id = modus
+    except:
+        id, name  = modus
+        machine_id= '1'
+
     if machine_id not in machines:
         machines[machine_id] = {'modes': [], 'parameters': [], 'images': []}
     machines[machine_id]['modes'].append({'id': id, 'name': name})
 
 # Process Parameters data
 for parameter in parameters_data:
-    par_name, mode_id, machine_id, par_pos = parameter
+    try:
+         par_name, mode_id, machine_id, par_pos = parameter
+    except:
+        machine_id= '1'
+        par_name, mode_id,  par_pos = parameter
+    
     if machine_id in machines:
         machines[machine_id]['parameters'].append({
             'name': par_name,
@@ -65,7 +76,12 @@ for parameter in parameters_data:
 
 # Process Refernce_Images data
 for image in reference_images_data:
-    machine_id, mode_id, merkmal_pos, ref_img_path = image
+    try:
+        machine_id, mode_id, merkmal_pos, ref_img_path = image
+    except:
+        machine_id= '1'
+        mode_id, merkmal_pos, ref_img_path = image
+
     if machine_id in machines:
         machines[machine_id]['images'].append({
             'mode_id': mode_id,
